@@ -1,0 +1,124 @@
+.clearAll{
+  border: transparent;
+  background-color: transparent;
+  font-size: 40px;
+}
+.name{
+  margin-top: 15%;
+}
+.brand1{
+  font-size: 4em;
+  text-align: center;
+  color: white;
+}
+.btn1{
+  margin-top: 20px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 20px;
+}
+body {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: url("http://pre00.deviantart.net/ce3d/th/pre/i/2013/162/a/4/green_grass_on_a_background_beautiful_sunset_by_macinivnw-d68ovg0.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.values{
+  cursor: pointer;
+  margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: #000;
+}
+
+hr {
+  max-width: 400px;
+  border-color: #999999;
+}
+
+.container{
+  margin-top: 200px;
+}
+
+.tagline-divider {
+  margin: 15px auto 3px;
+  max-width: 250px;
+  border-color: #999999;
+}
+
+.box {
+  margin-bottom: 20px;
+  padding: 30px 15px;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.img-border {
+  float: none;
+  margin: 0 auto 0;
+  border: #999999 solid 1px;
+}
+
+.img-left {
+  float: none;
+  margin: 0 auto 0;
+}
+
+@media screen and (min-width:768px) {
+  .brand {
+    display: inherit;
+    margin: 0;
+    padding: 30px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .box:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.red, .red1 {
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 3px solid black;
+  color: black;
+  font-weight: 500;
+  outline: 0;
+  text-align: center;
+}
